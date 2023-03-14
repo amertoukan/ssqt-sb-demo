@@ -1,0 +1,18 @@
+mutation createProgramOnLive {
+  createProgram(id:"b2c-Partners", 
+                name: "B2C Partners", 
+                programTemplateId:"9q1FZuxBRgBsBdPs1Pjdh") {
+    id
+    name
+    templateId
+  }
+}
+
+
+
+
+mutation updateProgramOnLive($program:ProgramInput!) {
+  updateProgram(programInput:$program) {
+    id
+  }
+}
