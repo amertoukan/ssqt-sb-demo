@@ -1,4 +1,4 @@
-accountId,id,firstName,lastName,email,referredByCode
+accountId,id,firstName,lastName,email,referredBy.code
 oliversmith@example.com,oliversmith@example.com,Oliver,Smith,oliversmith@example.com,STEVENSCOTT
 sophiakim@example.com,sophiakim@example.com,Sophia,Kim,sophiakim@example.com,STEVENSCOTT
 ethannguyen@example.com,ethannguyen@example.com,Ethan,Nguyen,ethannguyen@example.com,TIMOTHYCARTER
