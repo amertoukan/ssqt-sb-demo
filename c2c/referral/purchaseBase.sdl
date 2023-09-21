@@ -1,7 +1,7 @@
 
     "program": {
-      "id": "assessment-program",
-      "name": "Assessment Program",
+      "id": "referral-program",
+      "name": "Referral Program",
       "emails": [
         {
           "key": "First-Purchase-Made_Reward-Referrer_email",
