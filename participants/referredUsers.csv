@@ -1,0 +1,11 @@
+accountId,id,firstName,lastName,email,referredBy.code
+oliversmith@example.com,oliversmith@example.com,Oliver,Smith,oliversmith@example.com,STEVENSCOTT
+sophiakim@example.com,sophiakim@example.com,Sophia,Kim,sophiakim@example.com,STEVENSCOTT
+ethannguyen@example.com,ethannguyen@example.com,Ethan,Nguyen,ethannguyen@example.com,TIMOTHYCARTER
+isabellarodriguez@example.com,isabellarodriguez@example.com,Isabella,Rodriguez,isabellarodriguez@example.com,JESSICAMITCHELL
+lucasgonzalez@example.com,lucasgonzalez@example.com,Lucas,Gonzalez,lucasgonzalez@example.com,JESSICAMITCHELL
+avapark@example.com,avapark@example.com,Ava,Park,avapark@example.com,JESSICAMITCHELL
+alexandercampbell@example.com,alexandercampbell@example.com,Alexander,Campbell,alexandercampbell@example.com,JESSICAMITCHELL
+madisoncox@example.com,madisoncox@example.com,Madison,Cox,madisoncox@example.com,LAURALEE
+danielphillips@example.com,danielphillips@example.com,Daniel,Phillips,danielphillips@example.com,ANTHONYTHOMAS
+chloeng@example.com,chloeng@example.com,Chloe,Ng,chloeng@example.com,ANTHONYTHOMAS

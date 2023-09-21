@@ -1,0 +1,213 @@
+
+    "program": {
+      "id": "referral-program",
+      "name": "Referral Program",
+      "emails": [
+        {
+          "key": "First-Purchase-Made_Reward-Referrer_email",
+          "enabled": true,
+          "values": {
+            "meta": {
+              "fromName": "{{tenant.settings.companyName}}",
+              "fromAddress": "referral@mail.saasquat.ch",
+              "subject": "Congratulations! The referral is completed and you have received your reward."
+            },
+            "htmlContent": "<!doctype html><html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\"><head> <title> </title> <!--[if !mso]><!-- --> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <!--<![endif]--> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <style type=\"text/css\"> #outlook a { padding: 0; } body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } table, td { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; } img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; } p { display: block; margin: 13px 0; } </style> <!--[if mso]> <xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> <![endif]--> <!--[if lte mso 11]> <style type=\"text/css\"> .mj-outlook-group-fix { width:100% !important; } </style> <![endif]--> <!--[if !mso]><!--> <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600,700\" rel=\"stylesheet\" type=\"text/css\"> <style type=\"text/css\"> @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700); </style> <!--<![endif]--> <style type=\"text/css\"> @media only screen and (min-width:480px) { .mj-column-px-330 { width: 330px !important; max-width: 330px; } .mj-column-px-450 { width: 450px !important; max-width: 450px; } .mj-column-per-90 { width: 90% !important; max-width: 90%; } } </style> <style type=\"text/css\"> @media only screen and (max-width:480px) { table.mj-full-width-mobile { width: 100% !important; } td.mj-full-width-mobile { width: auto !important; } } </style></head><body style=\"background-color:#FFFFFF;\"> <div style=\"background-color:#FFFFFF;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#f2f2f2;background-color:#f2f2f2;width:100%;\"> <tbody> <tr> <td> <!--[if mso | IE]> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:330px;\" > <![endif]--> <div class=\"mj-column-px-330 mj-outlook-group-fix\" style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"font-size:0px;padding:0;word-break:break-word;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-collapse:collapse;border-spacing:0px;\"> <tbody> <tr> <td style=\"width:117px;\"> <img height=\"auto\" src=\"https://res.cloudinary.com/saasquatch/image/upload/v1552517373/squatch-assets/referral-converted-header_d2qsus.png\" style=\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\" width=\"117\" /> </td> </tr> </tbody> </table> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px 10px 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:36px;font-weight:700;line-height:1;text-align:center;color:#4797d2;\">Congratulations!</div> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:0 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:25px;text-align:center;color:#4c4c4c;\">Your friend has successfully been referred to {{tenant.settings.companyName}}.</div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> <!--[if mso | IE]> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:450px;\" > <![endif]--> <div class=\"mj-column-px-450 mj-outlook-group-fix\" style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:28px;text-align:center;color:#000000;\">As a thank you for spreading the word, here’s a {{reward.prettyValue}} reward.</div> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:0px 10px 10px 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:28px;text-align:center;color:#000000;\">{{#if reward.dateExpires}}This reward is available until {{formatDate reward.dateExpires \"dd/MM/yyyy\"}}.{{/if}}</div> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:30px 10px 0px 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:1;text-align:center;color:#000000;\">Keep sharing your code and earn more discounts -</div> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;font-weight:700;line-height:1;text-align:center;color:#000000;\">{{user.referralCode}}</div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"border-bottom:1px solid #e6e6e6;direction:ltr;font-size:0px;padding:20px 0;text-align:center;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:540px;\" > <![endif]--> <div class=\"mj-column-per-90 mj-outlook-group-fix\" style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"background:#f2f2f2;font-size:0px;padding:20px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;font-weight:700;line-height:1;text-align:center;color:#4797d2;\">{{user.shareLink}}</div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:450px;\" > <![endif]--> <div class=\"mj-column-px-450 mj-outlook-group-fix\" style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:28px;text-align:center;color:#4c4c4c;\">Share, Tweet, and Email<br /> to Refer and Earn More</div> </td> </tr> <!-- social buttons render improperly on outlook.com only if the link isn't valid, this can give a false negative on litmus tests https://github.com/mjmlio/mjml/issues/1491 --> <tr> <td align=\"center\" style=\"font-size:0px;padding:10px 25px;word-break:break-word;\"> <!--[if mso | IE]> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" > <tr> <td> <![endif]--> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"float:none;display:inline-table;\"> <tr> <td style=\"padding:10px;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#3b5998;border-radius:50px;width:60px;\"> <tr> <td style=\"font-size:0;height:60px;vertical-align:middle;width:60px;\"> <a href=\"{{user.facebook}}\" target=\"_blank\"> <img alt=\"facebook\" height=\"60\" src=\"https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png\" style=\"border-radius:50px;display:block;\" width=\"60\" /> </a> </td> </tr> </table> </td> </tr> </table> <!--[if mso | IE]> </td> <td> <![endif]--> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"float:none;display:inline-table;\"> <tr> <td style=\"padding:10px;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#55acee;border-radius:50px;width:60px;\"> <tr> <td style=\"font-size:0;height:60px;vertical-align:middle;width:60px;\"> <a href=\"{{user.twitter}}\" target=\"_blank\"> <img alt=\"twitter\" height=\"60\" src=\"https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png\" style=\"border-radius:50px;display:block;\" width=\"60\" /> </a> </td> </tr> </table> </td> </tr> </table> <!--[if mso | IE]> </td> <td> <![endif]--> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"float:none;display:inline-table;\"> <tr> <td style=\"padding:10px;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#40494e;border-radius:50px;width:60px;\"> <tr> <td style=\"font-size:0;height:60px;vertical-align:middle;width:60px;\"> <a href=\"{{user.email}}\" target=\"_blank\"> <img alt=\"email\" height=\"60\" src=\"https://res.cloudinary.com/saasquatch/image/upload/v1552520311/squatch-assets/Email_Icon_Sized.png\" style=\"border-radius:50px;display:block;\" width=\"60\" /> </a> </td> </tr> </table> </td> </tr> </table> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:14px;line-height:1;text-align:center;color:#acacac;\"><a href=\"{{stringFormat 'https://get.referralsaasquatch.com/powered-by/?co=%s' (urlencode tenant.settings.companyName space='%20')}}\" style=\"color:#acacac;text-decoration:none;\">Powered by SaaSquatch</a></div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </div></body></html>"
+          }
+        },
+        {
+          "key": "Successful-New-Referral_Notify-Referrer_email",
+          "enabled": true,
+          "values": {
+            "meta": {
+              "fromName": "{{tenant.settings.companyName}}",
+              "fromAddress": "referral@mail.saasquat.ch",
+              "subject": "Thanks for referring your friends! You will get rewards once the referral is completed."
+            },
+            "htmlContent": "<!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\"> <head> <title> </title> <!--[if !mso]><!-- --> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <!--<![endif]--> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <style type=\"text/css\"> #outlook a { padding: 0; } .ReadMsgBody { width: 100%; } .ExternalClass { width: 100%; } .ExternalClass * { line-height: 100%; } body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } table, td { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; } img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; } p { display: block; margin: 13px 0; } </style> <!--[if !mso]><!--> <style type=\"text/css\"> @media only screen and (max-width:480px) { @-ms-viewport { width: 320px; } @viewport { width: 320px; } } </style> <!--<![endif]--> <!--[if mso]> <xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> <![endif]--> <!--[if lte mso 11]> <style type=\"text/css\"> .outlook-group-fix { width:100% !important; } </style> <![endif]--> <!--[if !mso]><!--> <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600,700\" rel=\"stylesheet\" type=\"text/css\"> <style type=\"text/css\"> @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700); </style> <!--<![endif]--> <style type=\"text/css\"> @media only screen and (min-width:480px) { .mj-column-px-310 { width: 310px !important; max-width: 310px; } .mj-column-px-450 { width: 450px !important; max-width: 450px; } .mj-column-per-90 { width: 90% !important; max-width: 90%; } } </style> <style type=\"text/css\"> @media only screen and (max-width:480px) { table.full-width-mobile { width: 100% !important; } td.full-width-mobile { width: auto !important; } } </style> </head> <body style=\"background-color:#FFFFFF;\"> <div style=\"background-color:#FFFFFF;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#f2f2f2;background-color:#f2f2f2;width:100%;\"> <tbody> <tr> <td> <!--[if mso | IE]> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"Margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:310px;\" > <![endif]--> <div class=\"mj-column-px-310 outlook-group-fix\" style=\"font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"font-size:0px;padding:0;word-break:break-word;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-collapse:collapse;border-spacing:0px;\"> <tbody> <tr> <td style=\"width:117px;\"> <img height=\"auto\" src=\"https://res.cloudinary.com/saasquatch/image/upload/v1552517373/squatch-assets/referral-started-header_dmaab6.png\" style=\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\" width=\"117\" /> </td> </tr> </tbody> </table> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px 10px 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:48px;font-weight:700;line-height:1;text-align:center;color:#4797d2;\"> Good News! </div> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:0 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:25px;text-align:center;color:#4c4c4c;\"> Your friend has signed up for a free account with {{tenant.settings.companyName}}! </div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> <!--[if mso | IE]> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"Margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:450px;\" > <![endif]--> <div class=\"mj-column-px-450 outlook-group-fix\" style=\"font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:28px;text-align:center;color:#000000;\"> {{referral.referredUser.firstName}} {{referral.referredUser.lastName}} is currently trying out {{tenant.settings.companyName}}. As a thank you from us, if they become a paying user, you will automatically receive rewards. </div> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:10px 10px 0px 10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:1;text-align:center;color:#000000;\"> Keep sharing your code and earn more discounts - </div> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:10px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;font-weight:700;line-height:1;text-align:center;color:#000000;\"> {{user.referralCode}} </div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"Margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"border-bottom:1px solid #e6e6e6;direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:540px;\" > <![endif]--> <div class=\"mj-column-per-90 outlook-group-fix\" style=\"font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"background:#f2f2f2;font-size:0px;padding:20px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;font-weight:700;line-height:1;text-align:center;color:#4797d2;\"> {{user.shareLink}} </div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"\" style=\"width:600px;\" width=\"600\" > <tr> <td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"> <![endif]--> <div style=\"Margin:0px auto;max-width:600px;\"> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"width:100%;\"> <tbody> <tr> <td style=\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;\"> <!--[if mso | IE]> <table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> <tr> <td class=\"\" style=\"vertical-align:top;width:450px;\" > <![endif]--> <div class=\"mj-column-px-450 outlook-group-fix\" style=\"font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:18px;line-height:28px;text-align:center;color:#4c4c4c;\"> Share, Tweet, and Email<br /> to Refer and Earn More </div> </td> </tr> <!-- social buttons render improperly on outlook.com only if the link isn't valid, this can give a false negative on litmus tests https://github.com/mjmlio/mjml/issues/1491 --> <tr> <td align=\"center\" style=\"font-size:0px;padding:10px 25px;word-break:break-word;\"> <!--[if mso | IE]> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" > <tr> <td> <![endif]--> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"float:none;display:inline-table;\"> <tr> <td style=\"padding:10px;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#3b5998;border-radius:50px;width:60px;\"> <tr> <td style=\"font-size:0;height:60px;vertical-align:middle;width:60px;\"> <a href=\"{{user.facebook}}\" target=\"_blank\"> <img alt=\"facebook\" height=\"60\" src=\"https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png\" style=\"border-radius:50px;display:block;\" width=\"60\" /> </a> </td> </tr> </table> </td> </tr> </table> <!--[if mso | IE]> </td> <td> <![endif]--> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"float:none;display:inline-table;\"> <tr> <td style=\"padding:10px;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#55acee;border-radius:50px;width:60px;\"> <tr> <td style=\"font-size:0;height:60px;vertical-align:middle;width:60px;\"> <a href=\"{{user.twitter}}\" target=\"_blank\"> <img alt=\"twitter\" height=\"60\" src=\"https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png\" style=\"border-radius:50px;display:block;\" width=\"60\" /> </a> </td> </tr> </table> </td> </tr> </table> <!--[if mso | IE]> </td> <td> <![endif]--> <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"float:none;display:inline-table;\"> <tr> <td style=\"padding:10px;\"> <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#40494e;border-radius:50px;width:60px;\"> <tr> <td style=\"font-size:0;height:60px;vertical-align:middle;width:60px;\"> <a href=\"{{user.email}}\" target=\"_blank\"> <img alt=\"email\" height=\"60\" src=\"https://res.cloudinary.com/saasquatch/image/upload/v1552520311/squatch-assets/Email_Icon_Sized.png\" style=\"border-radius:50px;display:block;\" width=\"60\" /> </a> </td> </tr> </table> </td> </tr> </table> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> <tr> <td align=\"center\" style=\"font-size:0px;padding:20px;word-break:break-word;\"> <div style=\"font-family:'Open Sans', Arial, Helvetica, sans serif;font-size:14px;line-height:1;text-align:center;color:#acacac;\"> <a href=\"{{stringFormat 'https://get.referralsaasquatch.com/powered-by/?co=%s' (urlencode tenant.settings.companyName space='%20')}}\" style=\"color:#acacac;text-decoration:none;\">Powered by Saasquatch</a> </div> </td> </tr> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]> </td> </tr> </table> <![endif]--> </div> </body> </html>"
+          }
+        }
+      ],
+      "widgets": [
+        {
+          "key": "websiteReferralWidget",
+          "values": {
+            "htmlTemplate": "<sqm-brand brand=\"Nunito Sans\" slot brand-color=\"#4326c4ff\"><sqm-close-button></sqm-close-button><sqb-auth-template-switch><template slot=\"logged-in\"><sqm-hero background=\"https://res.cloudinary.com/saasquatch/image/upload/v1683589933/Portal%20Assets/Screen-Shot-2022-01-06-at-3.23.58-AM.png\" columns=\"2\" padding-size=\"medium\" wrap-direction=\"wrap\" secondary-background=\"#FFFFFF\" min-height=\"200\"><sqm-referral-card vertical-alignment=\"start\" slot=\"secondary-column\" padding-bottom=\"small\" padding-left=\"x-large\" padding-right=\"x-large\" padding-top=\"small\"><sqm-titled-section text-align=\"center\" label-margin=\"none\" padding=\"none\" slot=\"header\"><h1 slot=\"label\">Invite your friends to unlock rewards!</h1><p slot=\"content\">They&#x2019;ll get a &#x24;50 credit towards a new account and you&#x2019;ll get a &#x24;50 in credit for each friend you refer.</p></sqm-titled-section><sqm-portal-container gap=\"small\" direction=\"column\" display=\"grid\" max-width=\"100%\" padding=\"none\" slot=\"left\"><p style=\"margin: 0\">Choose how you want to share:</p><sqm-share-link tooltip-text=\"Copied to Clipboard\" tooltip-lifespan=\"1000\"></sqm-share-link><sqm-share-button medium=\"email\" icon-slot=\"prefix\" size=\"medium\" type=\"default\">Share via email</sqm-share-button><sqm-share-button medium=\"linkedin\" icon-slot=\"prefix\" size=\"medium\" type=\"default\">Share on LinkedIn</sqm-share-button><sqm-share-button medium=\"twitter\" icon-slot=\"prefix\" size=\"medium\" type=\"default\">Tweet about us</sqm-share-button></sqm-portal-container><sqm-portal-container display=\"flex\" slot=\"footer\" gap=\"small\" justify-content=\"center\"><sqm-logout-current-user user-identification-text=\"{email}\" switch-user-link=\"#\" switch-user-text=\"not you?\"></sqm-logout-current-user><sqm-portal-footer support-email=\"support@example.com\" show-powered-by=\"true\" padding-bottom=\"x-small\" padding-left=\"none\" padding-right=\"none\" padding-top=\"none\" hide-support-text terms-text=\"Terms And Conditions\" terms-link=\"https://example.com\"></sqm-portal-footer></sqm-portal-container></sqm-referral-card></sqm-hero></template><template slot=\"logged-out\"><sqm-hero background=\"https://res.cloudinary.com/saasquatch/image/upload/v1683589933/Portal%20Assets/Screen-Shot-2022-01-06-at-3.23.58-AM.png\" columns=\"2\" padding-size=\"medium\" wrap-direction=\"wrap\" secondary-background=\"#FFFFFF\"><sqm-instant-access-registration padding-bottom=\"small\" padding-left=\"x-large\" padding-right=\"x-large\" padding-top=\"small\" slot=\"secondary-column\"><sqm-titled-section text-align=\"center\" label-margin=\"small\" padding=\"none\" slot=\"top\"><div slot=\"label\"><h1>Invite your friends to unlock rewards!</h1></div><p slot=\"content\">They&#x2019;ll get a &#x24;50 credit towards a new account and you&#x2019;ll get a &#x24;50 in credit for each friend you refer.</p></sqm-titled-section><sqm-portal-footer slot=\"bottom\" support-email=\"support@example.com\" show-powered-by=\"true\" padding-bottom=\"x-small\" padding-left=\"none\" padding-right=\"none\" padding-top=\"none\" hide-support-text terms-text=\"Terms And Conditions\" terms-link=\"https://example.com\"></sqm-portal-footer></sqm-instant-access-registration></sqm-hero></template></sqb-auth-template-switch></sqm-brand>",
+            "meta": {
+              "plugins": [],
+              "dependencies": [
+                {
+                  "package": "@saasquatch/mint-components",
+                  "version": "1.6.x"
+                },
+                {
+                  "package": "@saasquatch/bedrock-components",
+                  "version": "1.3.x"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "key": "friendWidget",
+          "values": {
+            "htmlTemplate": "<sqm-brand brand=\"Nunito Sans\" slot brand-color=\"#4326c4ff\"><sqm-close-button></sqm-close-button><sqb-auth-template-switch><template slot=\"logged-in\"><sqm-hero background=\"https://res.cloudinary.com/saasquatch/image/upload/v1683589933/Portal%20Assets/Screen-Shot-2022-01-06-at-3.23.58-AM.png\" columns=\"2\" padding-size=\"medium\" wrap-direction=\"wrap\" secondary-background=\"#FFFFFF\"><sqm-referral-card vertical-alignment=\"start\" padding-bottom=\"small\" padding-left=\"x-large\" padding-right=\"x-large\" padding-top=\"small\" slot=\"secondary-column\"><sqm-portal-container gap=\"large\" direction=\"column\" display=\"flex\" justify-content=\"center\" max-width=\"100%\" padding=\"none\" slot=\"header\"><sqm-titled-section text-align=\"center\" label-margin=\"xxx-small\" padding=\"none\"><h1 slot=\"label\">You got &#x24;50 off thanks to a friend!</h1><p slot=\"content\"><span>Use this reward to get &#x24;50 off your next purchase.</span></p></sqm-titled-section><sqm-coupon-code copy-button-style=\"button-outside\"></sqm-coupon-code></sqm-portal-container><sqm-portal-footer slot=\"footer\" show-powered-by=\"true\" padding-bottom=\"none\" padding-left=\"none\" padding-right=\"none\" padding-top=\"none\" hide-support-text terms-text=\"Terms And Conditions\" terms-link=\"https://example.com\"></sqm-portal-footer></sqm-referral-card></sqm-hero></template><template slot=\"logged-out\"><sqm-hero background=\"https://res.cloudinary.com/saasquatch/image/upload/v1683589933/Portal%20Assets/Screen-Shot-2022-01-06-at-3.23.58-AM.png\" columns=\"2\" padding-size=\"medium\" wrap-direction=\"wrap\" secondary-background=\"#FFFFFF\"><sqm-referred-registration slot=\"secondary-column\" register-label=\"Get $50 off\" padding-bottom=\"small\" padding-left=\"x-large\" padding-right=\"x-large\" padding-top=\"small\"><sqm-titled-section text-align=\"center\" label-margin=\"small\" padding=\"none\" slot=\"top\"><h1 slot=\"label\">You got &#x24;50 off thanks to a friend!</h1><p slot=\"content\"><span>Use this reward to get &#x24;50 off your next purchase.</span></p></sqm-titled-section><div slot=\"bottom\"><p style=\"text-align: center\">*Valid on purchases of &#x24;75 or more</p><sqm-portal-footer slot=\"footer\" show-powered-by=\"true\" padding-bottom=\"none\" padding-left=\"none\" padding-right=\"none\" padding-top=\"none\" hide-support-text terms-text=\"Terms And Conditions\" terms-link=\"https://example.com\"></sqm-portal-footer></div></sqm-referred-registration></sqm-hero></template></sqb-auth-template-switch></sqm-brand>",
+            "autoPopup": true,
+            "meta": {
+              "plugins": [],
+              "dependencies": [
+                {
+                  "package": "@saasquatch/mint-components",
+                  "version": "1.6.x"
+                },
+                {
+                  "package": "@saasquatch/bedrock-components",
+                  "version": "1.3.x"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "key": "referrerWidget",
+          "values": {
+            "htmlTemplate": "<sqh-global-container class=\"squatch-container\" background=\"#ffa600\" loadingcolor=\"#439B76\" fontfamily=\"Helvetica Neue,Helvetica,Arial,sans-serif\" poweredby=\"true\">\n    <sqh-text-component sqhbanner=\"true\" ishidden=\"true\" background=\"https://res.cloudinary.com/saasquatch/image/upload/v1535746336/prod_default_assets/default_banner.jpg\" height=\"auto\" paddingtop=\"150\" paddingbottom=\"150\" text color=\"#000000\"></sqh-text-component>\n    <sqh-text-component sqhheader=\"true\" text=\"Give $10 and Get $10!\" color=\"#006400\" fontsize=\"30\" textalign=\"center\" paddingtop=\"30\" paddingbottom=\"10\"></sqh-text-component>\n    <sqh-text-component sqhbody=\"true\" ismarkdown=\"true\" text=\"Give a friend a $10 coupon and receive $10 for yourself when they purchase their first order.<br/><br/>Share the link below or use the code **<sqh-referral-code />**\" fontsize=\"13\" textalign=\"center\" paddingtop=\"5\" paddingbottom=\"20\" color=\"#ffffffff\"></sqh-text-component>\n    <sqh-copy-link-button text=\"Copy\" buttoncolor=\"#5C6164\" textcolor=\"#FFFFFF\"></sqh-copy-link-button>\n    <sqh-share-button-container emaildisplayrule=\"mobile-and-desktop\" emailtext=\"Email\" emailtextcolor=\"#ffffff\" emailbackgroundcolor=\"#4b4d50\" facebookdisplayrule=\"mobile-and-desktop\" facebooktext=\"Facebook\" facebooktextcolor=\"#ffffff\" facebookbackgroundcolor=\"#234079\" twitterdisplayrule=\"mobile-and-desktop\" twittertext=\"Twitter\" twittertextcolor=\"#ffffff\" twitterbackgroundcolor=\"#4797d2\" smsdisplayrule=\"mobile-only\" smstext=\"SMS\" smstextcolor=\"#ffffff\" smsbackgroundcolor=\"#7bbf38\" whatsappdisplayrule=\"mobile-only\" whatsapptext=\"WhatsApp\" whatsapptextcolor=\"#ffffff\" whatsappbackgroundcolor=\"#25D366\" linkedindisplayrule=\"hidden\" linkedintext=\"LinkedIn\" linkedintextcolor=\"#ffffff\" linkedinbackgroundcolor=\"#0084b9\" pinterestdisplayrule=\"hidden\" pinteresttext=\"Pinterest\" pinteresttextcolor=\"#ffffff\" pinterestbackgroundcolor=\"#cb2027\" messengerdisplayrule=\"hidden\" messengertext=\"Messenger\" messengertextcolor=\"#ffffff\" messengerbackgroundcolor=\"#0084ff\" linedisplayrule=\"mobile-only\" linetext=\"Line Messenger\" linetextcolor=\"#ffffff\" linebackgroundcolor=\"#00c300\"></sqh-share-button-container>\n    <sqh-text-component sqhreferralsheader=\"true\" ismarkdown=\"true\" text=\"**Rewards Dashboard**\" color=\"#ffffffff\" fontsize=\"13\" textalign=\"center\" paddingtop=\"20\" paddingbottom=\"10\"></sqh-text-component>\n    <sqh-stats-container paddingtop=\"0\" paddingbottom=\"0\">\n        <sqh-stat-component statcolor=\"#006400\" stattype=\"/referralsCount\" statdescription=\"Friends Referred\" paddingtop=\"10\" paddingbottom=\"10\"></sqh-stat-component>\n        <sqh-stat-component stattype=\"/rewardsCount\" statdescription=\"Total Rewards\" paddingtop=\"10\" paddingbottom=\"10\" statcolor=\"#ffffffff\"></sqh-stat-component>\n        <sqh-stat-component stattype=\"/rewardBalance/CREDIT/CENTS/prettyAssignedCredit\" statdescription=\"Credit earned\" paddingtop=\"10\" paddingbottom=\"10\" statcolor=\"#ffffffff\"></sqh-stat-component>\n    </sqh-stats-container>\n    <sqh-referral-list referralnamecolor=\"darkslategray\" referraltextcolor=\"lightgray\" rewardcolor=\"#006400ff\" pendingcolor=\"lightgray\" pendingvalue=\"Reward Pending\" referrervalue=\"Referred\" referrercontent=\"Referred you {date}\" convertedcontent=\"Signed up, referred {date}\" pendingcontent=\"Trial user, referred {date}\" valuecontent=\"and {extrarewards} more {extrarewards, plural, one {reward} other {rewards}}\" paginatemore=\"View More\" paginateless=\"Previous\" noreferralsyet=\"No Referrals Yet...\" unknownuser=\"Your Friend\" expiredvalue=\"Expired Reward\" expiredcontent=\"Signed up, referred {date}\" expiredcolor=\"lightgray\" cancelledcolor=\"#C81D05\" expiresvalue=\"Expires {expiryDate}\" cancelledvalue=\"Cancelled Reward\" cancelledcontent=\"Signed up, referred {date}\"></sqh-referral-list>\n    <sqh-text-component sqhfooter=\"true\" text=\"Terms and Conditions\" color=\"lightgray\" fontsize=\"13\" textalign=\"center\" paddingtop=\"10\" paddingbottom=\"10\"></sqh-text-component>\n</sqh-global-container>\n",
+            "meta": {
+              "dependencies": [
+                {
+                  "package": "@saasquatch/vanilla-components",
+                  "version": "1.2.x"
+                },
+                {
+                  "package": "@saasquatch/vanilla-components-assets",
+                  "filePath": "/icons.css",
+                  "version": "0.0.x"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sharing": {
+        "redirectUrl": {
+          "url": "https://www.saasquatch.com/",
+          "fallbackUrl": "https://www.saasquatch.com/",
+          "cookieExpiryDuration": "P12M",
+          "rules": null
+        },
+        "linkConfig": {
+          "messaging": {
+            "messages": [
+              {
+                "shareMedium": "TWITTER",
+                "config": {
+                  "twitterShareBody": "Sign up for a {companyName} account and we both get |Your Referred Reward|. Use this link {shareLink}"
+                }
+              },
+              {
+                "shareMedium": "EMAIL",
+                "config": {
+                  "emailShareBody": "Sign up for a {companyName} account and we both get |Your Referred Reward|. Use this link {shareLink}",
+                  "emailShareSubject": "Get |Your Referred Reward| from {companyName}"
+                }
+              },
+              {
+                "shareMedium": "LINKEDIN",
+                "config": {
+                  "linkedinShareBody": "Sign up for a {companyName} account and we both get |Your Referred Reward|. Use this link {shareLink}",
+                  "linkedinShareSubject": "Get |Your Referred Reward| from {companyName}"
+                }
+              },
+              {
+                "shareMedium": "SMS",
+                "config": {
+                  "smsShareBody": "Sign up for a {companyName} account and we both get |Your Referred Reward|. Use this link {shareLink}"
+                }
+              },
+              {
+                "shareMedium": "WHATSAPP",
+                "config": {
+                  "whatsAppShareBody": "Sign up for a {companyName} account and we both get |Your Referred Reward|. Use this link {shareLink}"
+                }
+              },
+              {
+                "shareMedium": "LINEMESSENGER",
+                "config": {
+                  "lineMessengerShareBody": "Sign up for a {companyName} account and we both get |Your Referred Reward|. Use this link {shareLink}"
+                }
+              },
+              {
+                "shareMedium": "PINTEREST",
+                "config": {
+                  "pinterestShareBody": "Sign up for a {companyName} account and we both get |Your Referred Reward|. Use this link {shareLink}"
+                }
+              }
+            ],
+            "messageLinkOpenGraph": {
+              "title": null,
+              "description": null,
+              "image": null,
+              "source": "LANDING_PAGE"
+            },
+            "shareLinkOpenGraph": {
+              "title": "Get |Your Referred Reward| from {companyName}",
+              "description": "Sign up for a {companyName} account and we both get |Your Referred Reward|.",
+              "image": null,
+              "source": "HOSTED"
+            }
+          }
+        }
+      },
+      "rules": {
+        "conversionRule": {
+          "objectives": [
+            {
+              "key": "Successful-New-Referral",
+              "name": "Successful New Referral",
+              "trigger": {
+                "triggerType": "referralTrigger"
+              },
+              "performsConversion": false,
+              "referrerProgramRewardLimit": {
+                "limitType": "unlimited"
+              },
+              "actions": [
+                {
+                  "actionType": "email",
+                  "name": "Notify Referrer",
+                  "key": "Notify-Referrer",
+                  "audience": "referrer"
+                }
+              ]
+            },
+            {
+              "key": "First-Purchase-Made",
+              "name": "First Purchase Made",
+              "trigger": {
+                "triggerType": "eventTrigger",
+                "condition": "goal.isFirstTime = true ? true",
+                "eventKey": "purchase"
+              },
+              "performsConversion": true,
+              "referrerProgramRewardLimit": {
+                "limitType": "unlimited"
+              },
+              "actions": [
+                {
+                  "actionType": "rewardAndEmail",
+                  "name": "Reward Referrer",
+                  "key": "Reward-Referrer",
+                  "audience": "referrer",
+                  "reward": {
+                    "pendingPeriod": "",
+                    "rewardType": "static"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "version": "4.0.0"
+      },
+      "analytics": null
+    }
